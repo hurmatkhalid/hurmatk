@@ -1,0 +1,101 @@
+#experience {
+	min-height: 40vh;
+	/* padding-top: 10%; */
+	padding-left: 15%;
+	padding-bottom: 10%;
+	max-height: 100vh;
+	font-family: 'Noto Serif', serif;
+	font-size: 19px;
+	color: var(--text);
+}
+.sectionHeader {
+	padding-bottom: 20px;
+}
+.wrapper {
+	display: flex;
+	flex-grow: 1;
+	height: 300;
+}
+
+.sectionHeader .sectionTitle {
+	font-size: 38px;
+	color: #ebf2fa;
+}
+.joblist-job-title {
+	font-family: 'Noto Serif', serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #ebf2fa;
+}
+.joblist-job-company {
+	font-family: 'Noto Serif', serif;
+	font-size: 28px;
+	color: var(--highlight);
+	font-weight: bold;
+}
+.joblist-duration {
+	font-family: 'Noto Serif', serif;
+	font-size: 18px;
+}
+#vertical-tabpanel {
+	margin-top: -28px;
+	padding-left: 25px;
+}
+.MuiTab-wrapper {
+	font-size: 16px;
+	text-align: left;
+	align-items: flex-start !important;
+	font-family: 'Noto Serif', serif;
+}
+.MuiButtonBase-root {
+	outline: none !important;
+	color: var(--text) !important;
+}
+
+.PrivateTabIndicator-colorSecondary-5 {
+	background-color: #d9ed92 !important;
+}
+.css-10d9dml-MuiTabs-indicator {
+	background-color: #d9ed92 !important;
+	width: 2px !important;
+}
+.jss5 {
+	background-color: #d9ed92 !important;
+}
+.makeStyles-tabs-2 {
+	border-right: 1px solid var(--black) !important;
+}
+#experience .MuiTab-root {
+	padding: 6px 20px;
+}
+.MuiButtonBase-root:focus {
+	color: var(--highlight) !important;
+}
+ul {
+	list-style: none;
+	margin-left: -40px;
+}
+.job-description li::before {
+	content: '▹    ';
+	color: var(--highlight);
+	position: absolute;
+	left: 0;
+}
+.job-description li {
+	position: relative;
+	padding-left: 30px;
+	padding-bottom: 16px;
+	font-size: 18px;
+	color: var(--text);
+}
+.job-description {
+	padding-top: 24px;
+	max-width: 650px;
+	font-family: 'Noto Serif', serif;
+	font-size: 20px;
+}
+.job-description a,
+.job-description b {
+	font-size: 19px;
+	font-weight: bold;
+}

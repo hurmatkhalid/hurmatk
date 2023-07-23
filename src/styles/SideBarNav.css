@@ -1,0 +1,41 @@
+.sidebarNav {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	position: fixed;
+	right: 0;
+	padding-right: 5%;
+	bottom: 10%;
+	background-color: transparent;
+}
+/* .rs-sidenav-subtle {
+	background-color: transparent !important;
+} */
+.sidebar-links {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	font-family: 'Noto Serif', serif;
+	letter-spacing: 0em;
+	line-height: 1.6em;
+	font-size: 16px;
+	padding: 0.2em;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+	color: var(--highlight);
+}
+a:hover {
+	color: var(--lightest-slate);
+}
+.sidebarLogos {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 8px;
+}
+img {
+	height: 18px;
+}

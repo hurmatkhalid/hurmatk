@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'Noto Serif', serif;
+	src: url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+}
+#about {
+	padding-top: 2%;
+	padding-left: 15%;
+	padding-bottom: 20px;
+	padding-right: 25%;
+	max-height: 100vh;
+	color: var(--text);
+	font-family: 'Noto Serif', serif;
+	font-size: 19px;
+}
+.sectionTitle {
+	font-size: 38px;
+	color: #ebf2fa;
+}
+.aboutDescription ul {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(150px, 10px));
+}
+.aboutDescription li {
+	position: relative;
+	padding-left: 20px;
+}
+.aboutDescription li::before {
+	content: '▹ ';
+	position: absolute;
+	left: 0;
+	color: var(--highlight);
+}
+
+.aboutContent {
+	display: flex;
+	flex-direction: row;
+}
+.aboutDescription {
+	max-width: 660px;
+	text-align: justify;
+	margin: 0;
+}
+.aboutImage {
+	padding-left: 40px;
+}
+.aboutImage img {
+	max-width: 300px;
+	height: auto;
+	border-radius: 10px;
+	margin-left: 30px;
+	box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+	border: none;
+}
+
+@media only screen and (max-width: 788px) {
+	.aboutImage img {
+		max-width: 200px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	#about {
+		height: unset;
+		padding-left: unset;
+		padding-right: unset;
+		padding-top: 30%;
+	}
+}
