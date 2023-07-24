@@ -39,3 +39,8 @@ a:hover {
 img {
 	height: 18px;
 }
+@media only screen and (max-width: 600px) {
+	.sidebarNav {
+		display: none;
+	}
+}

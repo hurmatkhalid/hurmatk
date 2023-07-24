@@ -62,9 +62,28 @@
 }
 @media only screen and (max-width: 600px) {
 	#about {
+		max-width: 100%;
 		height: unset;
 		padding-left: unset;
 		padding-right: unset;
-		padding-top: 30%;
+		padding-top: 10%;
+		margin: 10%;
+	}
+	.sectionTitle {
+		font-size: 30px !important;
+	}
+	.aboutDescription {
+		font-size: 17px;
+		text-align: justify;
+	}
+	/* .aboutDescription a,
+	.aboutDescription b {
+		font-size: 20px;
+	} */
+	.aboutContent {
+		display: unset;
+	}
+	.aboutImage img {
+		display: none;
 	}
 }
