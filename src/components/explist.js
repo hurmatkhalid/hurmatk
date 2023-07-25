@@ -116,14 +116,13 @@ const JobList = () => {
 				variant={isHorizontal ? 'fullWidth' : 'scrollable'}
 				value={value}
 				onChange={handleChange}
-				// className={classes.tabs}
-			>
+				className="tabs">
 				{Object.keys(experienceItems).map((key, i) => (
-					<Tab label={isHorizontal ? `0${i}.` : key} {...a11yProps(i)} />
+					<Tab label={key} {...a11yProps(i)} />
 				))}
 			</Tabs>
 			{Object.keys(experienceItems).map((key, i) => (
-				<TabPanel value={value} index={i}>
+				<TabPanel value={value} index={i} className="tabPanel">
 					<span className="joblist-job-title">
 						{experienceItems[key]['jobTitle'] + ' '}
 					</span>

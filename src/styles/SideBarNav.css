@@ -36,6 +36,9 @@ a:hover {
 	justify-content: space-between;
 	padding-bottom: 8px;
 }
+.logo {
+	padding-left: 2px;
+}
 img {
 	height: 18px;
 }

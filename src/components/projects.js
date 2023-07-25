@@ -21,20 +21,20 @@ class Projects extends React.Component {
 	render() {
 		const projects = {
 			'Brow Browser': {
-				desc: 'Website for my organisation',
-				techStack: 'Next.js, TypeScript, TailwindCSS, Firebase',
+				desc: 'Custom web browser that uses Google Search API',
+				techStack: 'Reactjs, JavaScript, CSS, Firebase',
 				link: 'https://github.com/hurmatkhalid/brow',
 				open: '#',
 			},
 			'21Consequences Website': {
-				desc: 'Website for my organisation',
-				techStack: 'Next.js, TypeScript, TailwindCSS, Firebase',
+				desc: 'User-friendly responsive website for the NGO, 21Consequences, showcasing their initiatives.',
+				techStack: 'Next.js, TypeScript, TailwindCSS',
 				link: 'https://github.com/hurmatkhalid/21consequences',
 				open: 'http://21consequences.vercel.app/',
 			},
 			'Google Clone': {
-				desc: ' can you tell if this is real?',
-				techStack: 'React, Firebase, Js, CSS',
+				desc: ' Cloning the Google Search Engine using Google Search API',
+				techStack: 'React, Firebase, JavaScript, CSS',
 				link: 'https://github.com/hurmatkhalid/Google-Clone',
 				open: 'https://clone-7ad40.web.app/',
 			},

@@ -39,7 +39,7 @@
 	flex-direction: row;
 }
 .aboutDescription {
-	max-width: 660px;
+	/* max-width: ; */
 	text-align: justify;
 	margin: 0;
 }

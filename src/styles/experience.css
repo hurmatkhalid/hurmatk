@@ -60,6 +60,7 @@
 	background-color: #d9ed92 !important;
 	width: 2px !important;
 }
+
 .jss5 {
 	background-color: #d9ed92 !important;
 }
@@ -72,6 +73,7 @@
 .MuiButtonBase-root:focus {
 	color: var(--highlight) !important;
 }
+
 ul {
 	list-style: none;
 	margin-left: -40px;
@@ -101,19 +103,41 @@ ul {
 	font-weight: bold;
 }
 @media only screen and (max-width: 600px) {
-	/* #experience {
+	#experience {
 		padding-left: unset;
 		padding-right: unset;
 		margin: 10%;
 	}
 	.wrapper {
 		flex-direction: column;
+		display: flex;
+		align-items: start;
+		width: 100%;
 	}
 	.css-heg063-MuiTabs-flexContainer {
 		flex-direction: column;
 	}
 	.css-8je8zh-MuiTouchRipple-root {
 		padding-left: 0px;
-		width: 50px;
-	} */
+		width: fit-content;
+	}
+	.css-10d9dml-MuiTabs-indicator {
+		display: none !important;
+		background-color: none !important;
+	}
+
+	.css-19kzrtu {
+		padding: 0 !important;
+		padding-top: 30px !important;
+	}
+
+	.joblist-job-title {
+		font-size: 30px;
+	}
+	.joblist-duration {
+		font-size: 19px;
+	}
+	.job-description li {
+		font-size: 17px;
+	}
 }

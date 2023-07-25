@@ -51,13 +51,13 @@ class SideBarNav extends React.Component {
 					</Sidenav>
 				)}
 				<div className="sidebarLogos" href="/">
-					<a href="mailto:hurmatkhalid1822@gmail.com" className="">
+					<a href="mailto:hurmatkhalid1822@gmail.com" className="logo">
 						<EmailIcon style={{ fontSize: 20 }} />
 					</a>
-					<a href="https://github.com/hurmatkhalid">
+					<a href="https://github.com/hurmatkhalid" className="logo">
 						<GitHubIcon style={{ fontSize: 20 }} />
 					</a>
-					<a href="https://www.linkedin.com/in/hurmatkhalid">
+					<a href="https://www.linkedin.com/in/hurmatkhalid" className="logo">
 						<LinkedInIcon style={{ fontSize: 20 }} />
 					</a>
 				</div>
