@@ -2,10 +2,11 @@
 	min-height: 40vh;
 	/* padding-top: 10%; */
 	padding-left: 15%;
+	/* padding-right: 25%; */
 	padding-bottom: 10%;
-	max-height: 100vh;
+	/* max-height: 100vh; */
 	font-family: 'Noto Serif', serif;
-	font-size: 19px;
+	font-size: 17px;
 	color: var(--text);
 }
 .sectionHeader {
@@ -98,4 +99,21 @@ ul {
 .job-description b {
 	font-size: 19px;
 	font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+	/* #experience {
+		padding-left: unset;
+		padding-right: unset;
+		margin: 10%;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.css-heg063-MuiTabs-flexContainer {
+		flex-direction: column;
+	}
+	.css-8je8zh-MuiTouchRipple-root {
+		padding-left: 0px;
+		width: 50px;
+	} */
 }

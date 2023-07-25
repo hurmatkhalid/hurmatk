@@ -4,7 +4,7 @@
 	font-family: 'Noto Serif', serif;
 	color: var(--text);
 	padding-left: 15%;
-	padding-right: 25%;
+	/* padding-right: 25%; */
 	font-size: 19px;
 	padding-bottom: 20px;
 }
@@ -17,16 +17,13 @@
 }
 .projects-grid {
 	display: grid;
-	/* max-width: 70%; */
 	grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
-	grid-column-gap: 20px;
-	grid-row-gap: 50px;
+	grid-gap: 80px 10px;
 }
 
 @media (max-width: 1080px) {
 	.projects-grid {
 		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-		grid-gap: 20px 20px;
 	}
 }
 
@@ -69,14 +66,14 @@
 .card-title {
 	font-family: 'Noto Serif', serif;
 	color: #ebf2fa !important;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 }
 .card-desc {
 	font-family: 'Noto Serif', serif;
 	color: var(--text);
 	font-size: 17px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 
 .card-tech {
@@ -89,5 +86,9 @@
 		height: unset;
 		padding-left: unset;
 		padding-right: unset;
+		margin: 10%;
+	}
+	.section-header .section-title {
+		font-size: 30px;
 	}
 }
